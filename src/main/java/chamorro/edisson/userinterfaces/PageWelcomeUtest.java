@@ -1,4 +1,4 @@
-package com.sophossolutions.userinterfaces;
+package chamorro.edisson.userinterfaces;
 
 import net.serenitybdd.screenplay.targets.Target;
 

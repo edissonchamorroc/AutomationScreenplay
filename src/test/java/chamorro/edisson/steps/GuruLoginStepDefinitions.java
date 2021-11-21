@@ -1,22 +1,21 @@
-package com.sophossolutions.steps;
+package chamorro.edisson.steps;
 
-import static com.sophossolutions.userinterfaces.HomePageGuruLogin.BUTTON_LOGIN;
-import static com.sophossolutions.userinterfaces.HomePageGuruLogin.USER_ID;
-import static com.sophossolutions.userinterfaces.HomePageGuruLogin.USER_PASSWORD;
-import static com.sophossolutions.userinterfaces.PageNewCustomerGuru.OPTION_GURU;
+import static chamorro.edisson.userinterfaces.HomePageGuruLogin.BUTTON_LOGIN;
+import static chamorro.edisson.userinterfaces.HomePageGuruLogin.USER_ID;
+import static chamorro.edisson.userinterfaces.HomePageGuruLogin.USER_PASSWORD;
+import static chamorro.edisson.userinterfaces.PageNewCustomerGuru.OPTION_GURU;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
-import com.sophossolutions.exceptions.GeneralException;
-import com.sophossolutions.questions.GetText;
-import com.sophossolutions.tasks.LoginUser;
-import com.sophossolutions.tasks.RegisterData;
-import com.sophossolutions.userinterfaces.PageNewCustomerGuru;
-import com.sophossolutions.utilities.Constant;
-import com.sophossolutions.utilities.ErrorMessage;
-
+import chamorro.edisson.exceptions.GeneralException;
+import chamorro.edisson.questions.GetText;
+import chamorro.edisson.tasks.LoginUser;
+import chamorro.edisson.tasks.RegisterData;
+import chamorro.edisson.userinterfaces.PageNewCustomerGuru;
+import chamorro.edisson.utilities.Constant;
+import chamorro.edisson.utilities.ErrorMessage;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

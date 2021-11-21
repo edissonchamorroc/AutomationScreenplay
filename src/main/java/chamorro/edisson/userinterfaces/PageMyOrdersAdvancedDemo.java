@@ -1,6 +1,6 @@
-package com.sophossolutions.userinterfaces;
+package chamorro.edisson.userinterfaces;
 
-import com.sophossolutions.utilities.Constant;
+import chamorro.edisson.utilities.Constant;
 
 import net.serenitybdd.screenplay.targets.Target;
 

@@ -1,6 +1,6 @@
 package chamorro.edisson.tasks;
 
-import com.sophossolutions.userinterfaces.HomePageYourLogo;
+import chamorro.edisson.userinterfaces.HomePageYourLogo;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

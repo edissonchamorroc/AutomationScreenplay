@@ -1,9 +1,9 @@
-package com.sophossolutions.userinterfaces;
+package chamorro.edisson.userinterfaces;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.sophossolutions.utilities.Constant;
+import chamorro.edisson.utilities.*;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;

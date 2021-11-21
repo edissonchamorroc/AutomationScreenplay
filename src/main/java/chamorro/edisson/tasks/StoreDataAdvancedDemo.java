@@ -1,6 +1,6 @@
 package chamorro.edisson.tasks;
 
-import com.sophossolutions.questions.GetText;
+import chamorro.edisson.questions.GetText;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

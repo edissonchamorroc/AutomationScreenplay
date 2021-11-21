@@ -1,4 +1,4 @@
-package com.sophossolutions.utilities;
+package chamorro.edisson.utilities;
 
 public class ErrorMessage {
 

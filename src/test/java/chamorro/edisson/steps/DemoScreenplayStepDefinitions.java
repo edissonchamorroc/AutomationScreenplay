@@ -1,23 +1,25 @@
-package com.sophossolutions.steps;
+package chamorro.edisson.steps;
 
-import com.sophossolutions.exceptions.GeneralException;
-import com.sophossolutions.questions.GetText;
-import com.sophossolutions.tasks.Add;
-import com.sophossolutions.tasks.Search;
-import com.sophossolutions.userinterfaces.EveningDresses;
-import com.sophossolutions.userinterfaces.HomePageYourLogo;
-import com.sophossolutions.utilities.Constant;
-import com.sophossolutions.utilities.ErrorMessage;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static org.hamcrest.Matchers.equalTo;
+
+import chamorro.edisson.exceptions.GeneralException;
+import chamorro.edisson.questions.GetText;
+import chamorro.edisson.tasks.Add;
+import chamorro.edisson.tasks.Search;
+import chamorro.edisson.userinterfaces.EveningDresses;
+import chamorro.edisson.userinterfaces.HomePageYourLogo;
+import chamorro.edisson.utilities.Constant;
+import chamorro.edisson.utilities.ErrorMessage;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static net.serenitybdd.screenplay.actors.OnStage.*;
-import static org.hamcrest.Matchers.equalTo;
 
 public class DemoScreenplayStepDefinitions {
 

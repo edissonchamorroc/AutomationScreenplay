@@ -3,6 +3,7 @@ package chamorro.edisson.tasks;
 import java.util.List;
 import java.util.Map;
 
+import chamorro.edisson.utilities.GenericEmail;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

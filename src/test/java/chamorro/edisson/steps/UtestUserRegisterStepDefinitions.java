@@ -1,15 +1,15 @@
-package com.sophossolutions.steps;
+package chamorro.edisson.steps;
 
-import static com.sophossolutions.userinterfaces.HomePageUtest.BUTTON_REGISTER;
-import static com.sophossolutions.userinterfaces.PageWelcomeUtest.MESSAGE;
+import static chamorro.edisson.tasks.RegisterUserUtest.registerUserUtest;
+import static chamorro.edisson.userinterfaces.HomePageUtest.BUTTON_REGISTER;
+import static chamorro.edisson.userinterfaces.PageWelcomeUtest.MESSAGE;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
-import static com.sophossolutions.tasks.RegisterUserUtest.registerUserUtest;
-import com.sophossolutions.exceptions.GeneralException;
-import com.sophossolutions.questions.GetText;
-import com.sophossolutions.utilities.ErrorMessage;
 
+import chamorro.edisson.exceptions.GeneralException;
+import chamorro.edisson.questions.GetText;
+import chamorro.edisson.utilities.ErrorMessage;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

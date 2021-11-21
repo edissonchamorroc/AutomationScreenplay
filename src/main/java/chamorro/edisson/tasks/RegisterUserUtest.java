@@ -1,14 +1,13 @@
 package chamorro.edisson.tasks;
 
-import static com.sophossolutions.tasks.RegisterData.register;
-import static com.sophossolutions.userinterfaces.PageAddressUserUtest.getTargetsAddressUtest;
-import static com.sophossolutions.userinterfaces.PageDevicesUserUtest.getTargetsDevicesUtest;
-import static com.sophossolutions.userinterfaces.PagePasswordUserUtest.CHECKBOX_PRIVACY;
-import static com.sophossolutions.userinterfaces.PagePasswordUserUtest.CHECKBOX_TERMS;
-import static com.sophossolutions.userinterfaces.PagePasswordUserUtest.getTargetsPasswordUtest;
-import static com.sophossolutions.userinterfaces.PagePersonalDataUserUtest.getTargetsPersonalUtest;
-import static com.sophossolutions.utilities.SplitLists.splitListList;
-import static com.sophossolutions.userinterfaces.PageAddressUserUtest.BUTTON_NEXT;
+import static chamorro.edisson.tasks.RegisterData.register;
+import static chamorro.edisson.userinterfaces.PageAddressUserUtest.getTargetsAddressUtest;
+import static chamorro.edisson.userinterfaces.PageDevicesUserUtest.getTargetsDevicesUtest;
+import static chamorro.edisson.userinterfaces.PagePasswordUserUtest.CHECKBOX_PRIVACY;
+import static chamorro.edisson.userinterfaces.PagePasswordUserUtest.CHECKBOX_TERMS;
+import static chamorro.edisson.userinterfaces.PagePasswordUserUtest.getTargetsPasswordUtest;
+import static chamorro.edisson.userinterfaces.PagePersonalDataUserUtest.getTargetsPersonalUtest;
+import static chamorro.edisson.utilities.SplitLists.splitListList;
 
 import java.util.List;
 
