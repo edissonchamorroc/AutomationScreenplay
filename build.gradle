@@ -5,8 +5,11 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-group 'com.sophossolutions'
+
+
+group 'chamorro.edisson'
 version '1.0-SNAPSHOT'
+
 sourceCompatibility = 1.8
 
 repositories {
@@ -18,19 +21,24 @@ buildscript{
     repositories{
         mavenCentral()
         mavenLocal()
-    }
+     }
+   
     ext {
         serenityVersion = '2.0.91'
         serenityCucumberVersion = '1.9.51'
     }
     dependencies{
         classpath("net.serenity-bdd:serenity-gradle-plugin:$rootProject.ext.serenityVersion")
+       
+       
     }
 }
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
+
 
 dependencies {
     implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.0-alpha1'

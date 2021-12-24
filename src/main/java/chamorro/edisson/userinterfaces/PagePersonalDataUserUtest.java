@@ -14,7 +14,7 @@ public class PagePersonalDataUserUtest {
 	public static final Target INPUT_EMAIL = Target.the("Campo de email").locatedBy("id:email");
 	public static final Target BIRTH_MONTH = Target.the("Mes de nacimiento").locatedBy("id:birthMonth");
 	public static final Target BIRTH_DAY = Target.the("Dia de nacimiento").locatedBy("id:birthDay");
-	public static final Target BIRTH_YEAR = Target.the("Año de nacimiento").locatedBy("id:birthYear");
+	public static final Target BIRTH_YEAR = Target.the("Anio de nacimiento").locatedBy("id:birthYear");
 	public static final Target INPUT_LANGUAGES = Target.the("Campo de idiomas").locatedBy(Constant.GENERIC_INPUT_TYPE)
 			.of("search");
 	public static final Target VALUE_LANGUAGES = Target.the("Valor de idiomas")

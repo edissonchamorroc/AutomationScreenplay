@@ -20,7 +20,7 @@ public class PageBuyProductAdvancedDemo {
 
 	public static final Target MONTH_OPTION = Target.the("Opcion Mes de vencimiento").locatedBy("name:mmListbox");
 
-	public static final Target YEAR_OPTION = Target.the("Opcion Año de vencimiento").locatedBy("name:yyyyListbox");
+	public static final Target YEAR_OPTION = Target.the("Opcion Anio de vencimiento").locatedBy("name:yyyyListbox");
 
 	public static final Target CVV_OPTION = Target.the("Clave CVV").locatedBy("name:cvv_number");
 
