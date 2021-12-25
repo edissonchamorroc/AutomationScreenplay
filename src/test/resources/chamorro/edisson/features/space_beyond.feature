@@ -6,16 +6,26 @@ Feature: Comprar viaje hacia un planeta en pagina Space and Beyond
   Scenario Outline: Pagar viaje de planeta de manera exitosa
     Given Necesita ingresar en la url "http://demo.testim.io/"
     When Selecciona los datos de viaje
-      | FechaIda   | FechaRegreso   | NumeroAdultos   | NumeroNinos   | Precio   | Planeta   |
-      | <FechaIda> | <FechaRegreso> | <NumeroAdultos> | <NumeroNinos> | <Precio> | <Planeta> |
+      | FechaIda      | <FechaIda>      |
+      | FechaRegreso  | <FechaRegreso>  |
+      | NumeroAdultos | <NumeroAdultos> |
+      | NumeroNinos   | <NumeroNinos>   |
+      | Precio        | <Precio>        |
+      | Planeta       | <Planeta>       |
+
     And Ingresa los datos de checkout
-      | Nombre   | Email   | NumeroSeguridad   | Celular   | Documento   |
-      | <Nombre> | <Email> | <NumeroSeguridad> | <Celular> | <Documento> |
+
+      | Nombre          | <Nombre>          |
+      | Email           | <Email>           |
+      | NumeroSeguridad | <NumeroSeguridad> |
+      | Celular         | <Celular>         |
+      | Documento       | <Documento>       |
+
     Then Verifica que se realice el pago
 
     Examples:
 
-      | FechaIda  | FechaRegreso | NumeroAdultos | NumeroNinos | Precio | Planeta   | Nombre  | Email        | NumeroSeguridad | Celular     | Documento |
-      | 1/2/2022 | 12/2/2022   | 2             | 1           | 243    | Shaheying | Edisson | john@hot.com | 223-34-3453     | 16102458685 | texto.txt |
+      | FechaIda | FechaRegreso | NumeroAdultos | NumeroNinos | Precio | Planeta   | Nombre  | Email        | NumeroSeguridad | Celular     | Documento |
+      | 1/2/2022 | 12/2/2022    | 2             | 1           | 875    | Shaheying | Edisson | john@hot.com | 223-34-3453     | 16102458685 | texto.txt |
 
 

@@ -1,5 +1,6 @@
 package chamorro.edisson.inteactions;
 
+import chamorro.edisson.questions.GetText;
 import chamorro.edisson.questions.IsEqual;
 import chamorro.edisson.utilities.NumberMonth;
 import net.serenitybdd.screenplay.Actor;
