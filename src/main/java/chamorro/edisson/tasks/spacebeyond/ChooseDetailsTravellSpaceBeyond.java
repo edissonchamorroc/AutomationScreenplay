@@ -1,4 +1,4 @@
-package chamorro.edisson.tasks;
+package chamorro.edisson.tasks.spacebeyond;
 
 import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
@@ -8,9 +8,9 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.DoubleClick;
 import net.serenitybdd.screenplay.actions.Enter;
 
-import java.util.Map;
+import static chamorro.edisson.userinterfaces.spacebeyond.PageSpaceBeyond.*;
 
-import static chamorro.edisson.userinterfaces.PageSpaceBeyond.*;
+import java.util.Map;
 
 public class ChooseDetailsTravellSpaceBeyond implements Task {
 
@@ -30,7 +30,7 @@ public class ChooseDetailsTravellSpaceBeyond implements Task {
                 SelectDateSpaceBeyond.with(travellData, "FechaRegreso", CALENDAR_MONTH, DATE_NEXT, BUTTON_OK),
                 Click.on(ADULTS_NUMBER_CLICK), Click.on(NUMBER_ADULTS.of(data.get("NumeroAdultos"))),
                 Click.on(CHILD_NUMBER_CLICK), Click.on(NUMBER_CHILDREN.of(data.get("NumeroNinos"))),
-                Enter.theValue(data.get("Precio")).into(TRAVELL_PRICE), Click.on(PLANET.of(data.get("Planeta"))), Click.on(PLANET.of(data.get("Planeta"))));
+                Enter.theValue(data.get("Precio")).into(TRAVELL_PRICE), Click.on(BOOK_PLANET.of(data.get("Planeta"))), Click.on(BOOK_PLANET.of(data.get("Planeta"))));
 
 
     }

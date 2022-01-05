@@ -1,7 +1,6 @@
-package chamorro.edisson.tasks;
+package chamorro.edisson.tasks.yourlogo;
 
-import chamorro.edisson.userinterfaces.HomePageYourLogo;
-
+import chamorro.edisson.userinterfaces.yourlogo.HomePageYourLogo;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

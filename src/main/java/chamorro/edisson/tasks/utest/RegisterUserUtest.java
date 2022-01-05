@@ -1,12 +1,12 @@
-package chamorro.edisson.tasks;
+package chamorro.edisson.tasks.utest;
 
-import static chamorro.edisson.tasks.RegisterData.register;
-import static chamorro.edisson.userinterfaces.PageAddressUserUtest.getTargetsAddressUtest;
-import static chamorro.edisson.userinterfaces.PageDevicesUserUtest.getTargetsDevicesUtest;
-import static chamorro.edisson.userinterfaces.PagePasswordUserUtest.CHECKBOX_PRIVACY;
-import static chamorro.edisson.userinterfaces.PagePasswordUserUtest.CHECKBOX_TERMS;
-import static chamorro.edisson.userinterfaces.PagePasswordUserUtest.getTargetsPasswordUtest;
-import static chamorro.edisson.userinterfaces.PagePersonalDataUserUtest.getTargetsPersonalUtest;
+import static chamorro.edisson.tasks.guru.RegisterData.register;
+import static chamorro.edisson.userinterfaces.utest.PageAddressUserUtest.getTargetsAddressUtest;
+import static chamorro.edisson.userinterfaces.utest.PageDevicesUserUtest.getTargetsDevicesUtest;
+import static chamorro.edisson.userinterfaces.utest.PagePasswordUserUtest.CHECKBOX_PRIVACY;
+import static chamorro.edisson.userinterfaces.utest.PagePasswordUserUtest.CHECKBOX_TERMS;
+import static chamorro.edisson.userinterfaces.utest.PagePasswordUserUtest.getTargetsPasswordUtest;
+import static chamorro.edisson.userinterfaces.utest.PagePersonalDataUserUtest.getTargetsPersonalUtest;
 import static chamorro.edisson.utilities.SplitLists.splitListList;
 
 import java.util.List;

@@ -8,10 +8,10 @@ import static org.hamcrest.Matchers.equalTo;
 
 import chamorro.edisson.exceptions.GeneralException;
 import chamorro.edisson.questions.GetText;
-import chamorro.edisson.tasks.Add;
-import chamorro.edisson.tasks.Search;
-import chamorro.edisson.userinterfaces.EveningDresses;
-import chamorro.edisson.userinterfaces.HomePageYourLogo;
+import chamorro.edisson.tasks.yourlogo.Add;
+import chamorro.edisson.tasks.yourlogo.Search;
+import chamorro.edisson.userinterfaces.yourlogo.EveningDresses;
+import chamorro.edisson.userinterfaces.yourlogo.HomePageYourLogo;
 import chamorro.edisson.utilities.Constant;
 import chamorro.edisson.utilities.ErrorMessage;
 import cucumber.api.java.Before;

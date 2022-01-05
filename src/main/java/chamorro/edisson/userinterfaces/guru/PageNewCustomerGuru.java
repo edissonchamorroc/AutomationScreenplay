@@ -1,4 +1,4 @@
-package chamorro.edisson.userinterfaces;
+package chamorro.edisson.userinterfaces.guru;
 
 import java.util.HashMap;
 import java.util.Map;

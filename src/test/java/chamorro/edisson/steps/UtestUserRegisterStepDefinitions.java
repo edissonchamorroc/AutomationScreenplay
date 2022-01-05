@@ -1,8 +1,8 @@
 package chamorro.edisson.steps;
 
-import static chamorro.edisson.tasks.RegisterUserUtest.registerUserUtest;
-import static chamorro.edisson.userinterfaces.HomePageUtest.BUTTON_REGISTER;
-import static chamorro.edisson.userinterfaces.PageWelcomeUtest.MESSAGE;
+import static chamorro.edisson.tasks.utest.RegisterUserUtest.registerUserUtest;
+import static chamorro.edisson.userinterfaces.utest.HomePageUtest.BUTTON_REGISTER;
+import static chamorro.edisson.userinterfaces.utest.PageWelcomeUtest.MESSAGE;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;

@@ -1,4 +1,4 @@
-package chamorro.edisson.userinterfaces;
+package chamorro.edisson.userinterfaces.advantagedemo;
 
 import chamorro.edisson.utilities.Constant;
 

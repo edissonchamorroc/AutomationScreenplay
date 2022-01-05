@@ -1,4 +1,4 @@
-package chamorro.edisson.userinterfaces;
+package chamorro.edisson.userinterfaces.yourlogo;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;

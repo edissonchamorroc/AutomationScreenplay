@@ -1,4 +1,4 @@
-package chamorro.edisson.userinterfaces;
+package chamorro.edisson.userinterfaces.utest;
 
 import net.serenitybdd.screenplay.targets.Target;
 

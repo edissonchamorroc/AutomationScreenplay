@@ -1,4 +1,4 @@
-package chamorro.edisson.tasks;
+package chamorro.edisson.tasks.advantagedemo;
 
 import chamorro.edisson.questions.GetText;
 

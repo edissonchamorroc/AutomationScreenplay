@@ -1,9 +1,9 @@
 package chamorro.edisson.steps;
 
-import static chamorro.edisson.userinterfaces.HomePageGuruLogin.BUTTON_LOGIN;
-import static chamorro.edisson.userinterfaces.HomePageGuruLogin.USER_ID;
-import static chamorro.edisson.userinterfaces.HomePageGuruLogin.USER_PASSWORD;
-import static chamorro.edisson.userinterfaces.PageNewCustomerGuru.OPTION_GURU;
+import static chamorro.edisson.userinterfaces.guru.HomePageGuruLogin.BUTTON_LOGIN;
+import static chamorro.edisson.userinterfaces.guru.HomePageGuruLogin.USER_ID;
+import static chamorro.edisson.userinterfaces.guru.HomePageGuruLogin.USER_PASSWORD;
+import static chamorro.edisson.userinterfaces.guru.PageNewCustomerGuru.OPTION_GURU;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -11,9 +11,9 @@ import static org.hamcrest.Matchers.equalTo;
 
 import chamorro.edisson.exceptions.GeneralException;
 import chamorro.edisson.questions.GetText;
-import chamorro.edisson.tasks.LoginUser;
-import chamorro.edisson.tasks.RegisterData;
-import chamorro.edisson.userinterfaces.PageNewCustomerGuru;
+import chamorro.edisson.tasks.guru.LoginUser;
+import chamorro.edisson.tasks.guru.RegisterData;
+import chamorro.edisson.userinterfaces.guru.PageNewCustomerGuru;
 import chamorro.edisson.utilities.Constant;
 import chamorro.edisson.utilities.ErrorMessage;
 import cucumber.api.DataTable;

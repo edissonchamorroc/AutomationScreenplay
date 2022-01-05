@@ -1,4 +1,4 @@
-package chamorro.edisson.tasks;
+package chamorro.edisson.tasks.guru;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
